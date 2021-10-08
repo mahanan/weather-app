@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.22.0/axios.min.js"></script>
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="main">
+        <div class="user_input">
+            <h2>Weather Forcast</h2>
+            <form action="#">
+                <input type="text" placeholder="Enter A City Name" id="city_name">
+                <br>
+                <button type="button" class="btn btn-danger" onclick="getWeatherData()">
+                    Search
+                </button>
+            </form>
+        </div>
+        <div class="weather_subsection" style="margin-right: 50px;">
+            <h3 id="location"></h3>
+            <h6 id="last_updt"></h6>
+            <h2 id="current_temp"></h2>
+            <span id="icon"></span>
+            <p id="current_weather"></p>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>

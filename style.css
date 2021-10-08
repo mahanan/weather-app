@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-image: url('./image/cloud.jpg');
+    background-size: cover;
+    background-position: bottom;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+input[type=text] {
+    width: 70%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+button {
+    background-color: #dc3546;
+    border: 0px solid white;
+    border-radius: 5px;
+    padding: 10px 35px;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 35px;
+}
+.user_input {
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    padding-top: 20px;
+}
+.weather_subsection h2{
+    font-size: 45px;
+    color: #dc3546;
+}
+.weather_subsection p{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 24px;
+    padding-top: 15px;
+}
+.weather_container {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.user_input h2 {
+    padding-bottom: 20px;
+    font-size: 40px;
+    color: white;
+}
